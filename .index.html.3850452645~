@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+<head>
+   <title>Accessible Healthcare</title>
+   <link rel="icon" href="Plus.jpg">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+ 
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+
+ <body>
+    <a id="home"> </a>
+    <div class="navbar">
+     <ul>
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#videos">Videos</a></li>
+       <li><a href="#petition">Petition</a></li> 
+        </ul>
+          <div class="search">
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" id="search" name="q" placeholder="search">
+                <input type="submit" value="search" class="searchbutton">
+               <a href="index.html" > <img src="Plus.jpg" class="logo" width= "40px" height= "38px" alt="logo"></a> 
+           </form>
+            
+            </div>
+   </div>
+
+
+          <div class="home">
+         <img src="https://capitol.technology/wp-content/uploads/2020/09/Healthcare-PNG-Transparent.png" width="500" height="320" class="img"> 
+          
+             <div class="title">
+            <h1 style="font-size:60px; text-decoration: underline; text-shadow: -1px 3px 2.3px grey;">Accessible Healthcare</h1>
+         <h2  class="heading">The place to find accessible healthcare for all</h2>
+               <div>
+                  <button type="button"class="buttons" onclick="hospital()"><span></span>Find A Hospital</button>
+                  <button type="button"class="buttons" onclick="openGmail()"> <span></span>Contact Us</button>
+                 </div>
+           </div>
+          </div>
+
+          
+             <div class="about">
+               <img src="https://cdn.statcdn.com/Infographic/images/normal/30314.jpeg" width="482" height="480" class="img2">
+
+               <a id="about"></a> 
+           <h2 style="text-decoration:underline;font-size:32px;">About</h2>
+            <p style="font-size:25px;">
+           This website is designed to inform you about the many different types of healthcare available for every patient.
+         There are resources and information regarding where patients can receive help through various services.</p>
+               <br></br>
+               <div id="sections">
+                    <h2 style="width:246px; margin:0px;font-style:italic">Sections:</h2>
+                  <ol class ="links">
+                    <li> <a href="#telehealth"> Telehealth </a></li>
+                    <br>
+                    <li> <a href ="#medicaid"> Check your eligibity for medicaid</a></li>
+                    <br>
+                    <li> <a href ="#affordablehealthcare">  healthcare options for unemployed </a></li>
+                  </ol>
+                </div>
+               </div>
+            
+        <br> <hr> </br>
+   <div id="info">
+      <h2 style="text-decoration:underline;font-size:32px;">Info</h2>
+      <h5>(Click on the titles to be redirected)</h5>
+      <a id="telehealth"></a>
+      <a href="https://www.telehealth.com/" target="_blank" class="tsect">Telehealth</a>
+      <p  style="font-size:19px;">
+      Telehealth allows your healthcare provider to offer care without requiring an in-person office visit. This method of healthcare is conducted online, utilizing internet access through your computer, tablet, or smartphone. Different types telehealth options include live phone or video consultations with your healthcare provider, messaging, email, file exchange for communication, and remote monitoring tools that enable your healthcare provider to check on your health at home. For instance, remote monitoring devices can collect vital signs, providing information to help your healthcare provider stay informed about your progress.</p> <br>
+
+      <a id="medicaid"></a>
+      <a href="https://www.emedny.org/providermanuals/5010/MEVS%20Quick%20Reference%20Guides/5010_MEVS_Methods.pdf" target="_blank" class="tsect">Check your eligibity for medicaid
+</a>
+       <p style="font-size:19px;"> <b>Medicaid and Medicare are different.</b>  you may benefit from Medicare if you are 65+ (under 65 too if you meet certain conditions) and have a disability, no matter your income. Meanwhile, Medicaid is a state and federal program that provides health coverage if you have a very low income.
+
+         <br></br>
+         
+Although Medicaid caters to various healthcare needs, some services might entail minimal co-payments. Participants can access covered services using their Medicaid card, and those enrolled in managed care will receive services through their managed care plan. Essentially, Medicaid aims to provide crucial medical support to individuals facing financial challenges in US states. </p> <br>
+
+      <a id="affordablehealthcare"></a>
+      <a href="https://www.healthcare.gov/unemployed/" target="_blank" class="tsect">healthcare options for unemployed</a>
+        <p style="font-size:19px;"> 
+          If you find yourself unemployed, there are health coverage options available to you. The Marketplace offers affordable health insurance plans where the costs are adjusted based on your income and the size of your household. Programs such as Medicaid or the Children's Health Insurance Program (CHIP) might allow you to qualify for free or low-cost coverage.
+          
+          Moreover, your eligibility and the amount of assistance you receive in paying for coverage are determined by other factors excluding <b>your current employment status.</b> </p> <br>
+
+    </div>
+
+   <hr>
+        <div>
+        <a id="videos"></a>
+          <h2 style="text-decoration:underline;font-size:32px;">Informational Videos</h2>
+   <iframe src="https://www.youtube.com/embed/zkELa_KfOeA" class="videos" > </iframe>
+  <iframe src="https://www.youtube.com/embed/mB3mmI5HqDI" class="videos"></iframe>
+          </div>
+   
+   <br>
+ 
+
+<hr>
+   <br>
+   
+   <div>
+     <a id="petition"></a>
+     <h2 style="text-decoration:underline;font-size:32px;">Petition</h2>
+     <p class="cause"> In the wake of the drastic impact of Covid-19 on our world, those who were already facing challenges find themselves in increasingly dire situations. Skyrocketing medical bills and hospital expenses reaching unprecedented heights have created a desperate need for a change. In urging the government to take action, we seek reforms that will significantly benefit those who are most vulnerable. <b>By signing this petition, you will help us shed light to the essential reinforcements required from the government to address these pressing issues.</b></p>
+   </div> 
+   
+   <form>
+     <label for="name">Name:</label>
+     <input type="text" id="name" placeholder="Name" class="petitioncss">
+
+     <label for="address">Address:</label>
+     <input type="text" id="address" placeholder="Address" class="petitioncss">
+
+     <label for="email">Email:</label>
+     <input type="text" id="email" placeholder="Email" class="petitioncss">
+      <button type="s" class="searchbutton" onclick="openpopup()">Submit</button>
+   </form>
+
+
+   <div class="popup" id="popup">
+     <img src="https://i.pinimg.com/200x150/2c/0d/0e/2c0d0efc70ade531be3e6be72acc0a3a.jpg" alt="Thank You Image">
+     <h2>Thank You!</h2>
+     <p>Your petition has been submitted successfully.</p>
+      
+     <button type="submit" onclick="closepopup()"> CLOSE </button>
+   </div>
+   
+
+       <form>
+        feedback: <br>
+        <fieldset>
+        <legend> was this page helpful? </legend>
+        <label for="yes"> yes </label>
+        <input type="radio" id ="yes" name ="yn" value ="" > <br>
+        <label for="no"> no </label>
+        <input type ="radio" id ="no" name ="yn" value =""> <br>
+          <input type ="submit" value="submit" class="searchbutton">
+        </fieldset>
+      </form>
+
+   <script src="script.js"></script>
+ </body>
+
+</html>
+
